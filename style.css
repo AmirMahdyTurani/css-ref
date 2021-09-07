@@ -1,9 +1,9 @@
 /* External file */
 body{
-    font-family: serif;
-    /* font-size: 16px; defualt! */
+    font-family: serif; fon of site
+    /* font-size: 16px; defualt! */ size of font of site
     font-size: 1.3rem;
-    /* text-align: center; */
+    /* text-align: center; alige of site */ 
 }
 
 p {
@@ -75,3 +75,6 @@ article:hover{
     transition: box-shadow 0.25s;
 }
 
+b{
+    display: block;
+}
