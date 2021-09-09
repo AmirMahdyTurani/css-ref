@@ -1,41 +1,42 @@
 /* External file */
 body{
-    font-family: serif; fon of site
-    /* font-size: 16px; defualt! */ size of font of site
-    font-size: 1.3rem;
-    /* text-align: center; alige of site */ 
+    /* font-family: serif; fon of site
+    font-size: 16px; defualt! size of font of site
+     font-size: 1.3rem; 
+     text-align: center; alige of site */ 
+    background-color: yellow; /* select background site color */
 }
 
 p {
-    border: 0.01rem solid gray;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+    border: 0.01rem solid gray; /* create border for p tag [size kind color] */
+    padding: 0.5rem; /* padding of p */
+    border-radius: 0.5rem; /* border radius */
 }
 
-/* #h1 {
+/* #h1 { // id selector
     padding: 0.5rem;
 } */
 /* if for 1 element! */
 
-/* .bg-gray {
+/* .bg-gray { // class selector 
     background-color: gray;
 } */
 
 
-/* ol span{
+/* ol span{ // ol tag's spans
     background-color: skyblue;
 } */
 
 
-/* ol li span:first-child{
+/* ol li span:first-child{ // first child of span of list of ol
     background-color: skyblue;
 }
 
-ol li span:last-child{
+ol li span:last-child{ // last child of span of list of ol
     background-color: skyblue;
 } */
 
-/* ol li span:nth-child(odd){
+/* ol li span:nth-child(odd){ // odd child of span of list of ol
     background-color: skyblue;
 } */
 
@@ -43,31 +44,32 @@ ol li span:last-child{
     background-color: skyblue;
 } */
 
-/* .mgh:hover{
+/* .mgh:hover{ // hover action
     color: black;
-    transition: color 1s;
+    transition: color 1s; // time of changing color
 }
 
-.hgh:active{
+.hgh:active{ // click action
     color: green;
 }
 
-.mgh:visited{
+.mgh:visited{ // visited action
     color: hotpink;
 } */
 
 article{
     width: 16.8%;
+    height: 100px;
     text-align: left;
-    float: left;
+    float: left; /* float of article */
     padding: 1rem;
     padding-top: 0rem;
     border: 0.01rem solid black ;
-    box-sizing: border-box;
+    box-sizing: border-box; /* box sizing */
     margin: 1.6%;
-    box-shadow: 0.53rem 5px 5px gray;
+    box-shadow: 0.53rem 5px 5px gray; /* box shadow */
     border-radius: 0.6rem;
-    overflow:hidden;
+    overflow:auto; /* create bar */
 }
 
 article:hover{
@@ -76,5 +78,30 @@ article:hover{
 }
 
 b{
-    display: block;
+    display: inline-block; /* display inlime with display block property
+    /* display: block; block display */
 }
+
+article{
+    display: inline; /* inline display */
+}
+
+input, textarea{
+    margin: 10px; /* margin */
+    border-radius: 7px;
+}
+
+.form{
+    border: 1px solid rgb(217, 255, 0);
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: gray 10px 10px 10px 3px;
+}
+
